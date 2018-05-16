@@ -7,6 +7,7 @@
 .top-nav_menu {
   padding-top: 15px;
   padding-bottom: 15px;
+  display: flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
