@@ -7,7 +7,9 @@
 .top-nav_menu {
   padding-top: 15px;
   padding-bottom: 15px;
-  display: flex;
+}
+.top-nav ul{
+
 }
 
 .logo img {
@@ -15,6 +17,7 @@
 }
 .top_nav li {
   	margin-right: 33px;
+  	display: inline-block;
 }
 .top_nav li:last-child{
   	margin: 0; 
