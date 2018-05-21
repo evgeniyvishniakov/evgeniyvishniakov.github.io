@@ -1,0 +1,32 @@
+@font-face {
+font-family: "NeoSansProRegular"; 
+src: url("../fonts/NeoSansPro-Regular/NeoSansPro-Regular.ttf"); 
+src: url("../fonts/NeoSansPro-Regular/NeoSansPro-Regular.ttf?#iefix") format("embedded-opentype"),
+url("../fonts/NeoSansPro-Regular/NeoSansPro-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+@font-face {
+font-family: "NeoSansProBold"; 
+src: url("../fonts/NeoSansPro-Bold/NeoSansPro-Bold.ttf"); 
+src: url("../fonts/NeoSansPro-Bold/NeoSansPro-Bold.ttf?#iefix") format("embedded-opentype"),
+url("../fonts/NeoSansPro-Bold/NeoSansPro-Bold.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: bold; 
+}
+@font-face {
+font-family: "NeoSansProMedium"; 
+src: url("../fonts/NeoSansPro-Medium/NeoSansPro-Medium.ttf"); 
+src: url("../fonts/NeoSansPro-Medium/NeoSansPro-Medium.ttf?#iefix") format("embedded-opentype"),
+url("../fonts/NeoSansPro-Medium/NeoSansPro-Medium.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: medium; 
+}
+@font-face {
+font-family: "JazzBall"; 
+src: url("../fonts/JazzBall/JazzBall.ttf"); 
+src: url("../fonts/JazzBall/JazzBall.ttf?#iefix") format("embedded-opentype"),
+url("../fonts/JazzBall/JazzBall.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}

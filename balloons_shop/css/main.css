@@ -1,0 +1,421 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+ li{
+ 	text-decoration: none;
+ 	list-style-type: none;
+ } 
+ .top_logo h1 {
+ 	font-family: "NeoSansProMedium";
+ 	color: #222222;
+ } 
+ .nav_header{
+ 	background-color: #eef8ff;
+ 	border: 3px solid #e5f0fb;
+ 	border-radius: 8px;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	height: 50px;
+ }
+ .nav_header p{
+ 	color: #4c4c4c;
+ 	font-family: "NeoSansProRegular"; 
+ 	font-size: 14px;
+ }
+ .nav_header .color{
+ 	display: flex;
+ 	align-items: center;
+ 	margin-left: 15px;
+ 	width: 210px;
+ }
+ .nav_header .color p{
+ 	margin-right: 10px;
+ }
+
+input[type=checkbox], input[type=radio] {
+    display:none;
+}
+
+input[type=radio] + label:before {
+    content: "\26AB";
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 20px;    
+    line-height: 20px;
+    margin: -5px 5px 0 0;
+    height: 17px;
+    width: 17px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0;    
+    transition: font-size ease .3s;
+    background-color: #e30013;  
+}
+
+input[type=radio]:checked + label:before {
+    border: 2px solid #fe4e4e;  
+
+}
+.black[type=radio] + label:before {
+	background-color: #3b3b3b;
+}
+.yellow[type=radio] + label:before {
+	background-color: #e3c400;
+}
+.white[type=radio] + label:before {
+	background-color: #ffffff;
+}
+.green[type=radio] + label:before {
+	background-color: #76e300;
+}
+.pink[type=radio] + label:before {
+	background-color: #e300a0;
+}
+.orang[type=radio] + label:before {
+	background-color: #e37000;
+}
+
+
+.nav_header .check{
+	display: flex;
+	border-left: 1px solid #bdcbd5;
+	border-right: 1px solid #bdcbd5;
+	padding: 0 53px;
+}
+
+
+.nav_header .checke{
+	align-items: center;
+	display: flex;
+	margin: 0 8px;
+}
+.nav_header .checke label{
+	color: #4c4c4c;
+ 	font-family: "NeoSansProRegular"; 
+ 	font-size: 14px;
+}
+input[type=checkbox] + label:before {
+    content: "\2713";
+    color: transparent;
+    display: inline-block;
+    border: 1px solid #bdcbd5;
+    border-radius: 4px;
+    background-color: #d7e2ea;
+    font-size: 17px;
+    font-weight: bold;    
+    line-height: 17px;
+    margin: -5px 5px 0 0;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    vertical-align: middle;
+    transition: color ease .3s;
+}
+
+input[type=checkbox]:checked + label:before {
+    color: #fff;
+    background-color: #f43e3d;
+}
+.nav_header .sort{
+	display: flex;
+	align-items: center;
+}
+.nav_header .sort .prise{
+	border-bottom: 1px dashed #ff0000;
+	color: #ff0000;
+	margin-right: 5px;
+	margin-left: 8px; 
+}
+.nav_header .sort .prise:hover{
+	border: none; 
+}
+.nav_header .sort .up::after{
+	content: "\2191";
+	color:#ff0000;
+}
+.nav_header .sort .down::after{
+	content: "\2193";
+	margin-right: 15px;
+	color:#aaaaaa; 
+}
+.main{
+	margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main .block{
+	border:1px solid #d0dbe6;
+	text-align: center;
+	display: flex;
+  	flex-direction: column;
+  	width: 190px;
+  	border-radius: 10px;
+}
+.main .block .yellow_boll{
+	width: 100%;
+	margin: 15px 0 10px 0;
+
+}
+.main .block a{
+	max-width: 117px;
+	display: block;
+	margin: 0 auto;
+	color: #0093ca;
+	font-family: "NeoSansProRegular"; 
+	font-size: 14px;
+	height: 33px;
+}
+.main .block a:hover{
+	text-decoration: none;
+}
+
+.main .block .info{
+	max-width: 125px;
+	height: 50px;
+	display: block;
+	margin: 13px auto;
+	color: #494949;
+	font-family: "NeoSansProRegular"; 
+	font-size: 13px;
+
+}
+.main .block h1{
+	margin: 0;
+	font-family: "NeoSansProBold"; 
+	color: #000000;
+	font-size: 18px;
+}
+.main .block h1 span{
+	color: #393939;
+	font-family: "NeoSansProRegular"; 
+	font-size: 12px;
+}
+.main .block .sale{
+	font-family: "NeoSansProRegular"; 
+	font-size: 15px;
+	color: #aaaaaa;
+	margin: 0;
+	position: relative;
+}
+.main .block .sale::before{
+	content: url(../img/redline.png);
+	position: absolute;
+	bottom:2px;
+	right: 76px;
+}
+.main .block .buy{
+	border: 1px solid #eef8ff;
+	background-color: #eef8ff;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	max-width: 140px;
+	margin: 5px auto 15px auto;
+
+}
+.main .block .buy input{
+	width: 43px;
+    height: 30px;
+    border: 1px solid #cacbcb;
+    border-radius: 20px;
+    padding: 0px 14px 0px 11px;
+    outline: none;
+    font-family: "NeoSansProRegular";
+    font-size: 13px;
+}
+.main .block .buy .plus{
+	position: absolute;
+	top:6px;
+	left:73px;
+	cursor: pointer;
+}
+.main .block .buy .minus{
+	position: absolute;
+	top: 15px;
+	left:73px;
+	cursor: pointer;
+}
+.main .block .buy .cart{
+	border: 1px solid #f73d3c;
+	background-color: #f73d3c;
+	padding: 11px 11px 11px 9px;
+	border-radius: 50%;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid #e5f0fb;
+	background-color: #eef8ff;
+	border-radius: 10px;
+	margin: 30px 0;
+}
+.footer ul{
+	display: flex;
+}
+.footer ul li a{
+	margin: 0 8px 0 8px; 
+	font-family: "NeoSansProRegular";
+	text-decoration: underline;
+	font-size: 14px;
+	color:#60666a;
+	cursor: pointer;
+}
+.footer ul li a:hover{
+	text-decoration: none;
+}
+.footer ul li:nth-child(3){
+	font-weight: bold;
+}
+.footer .prev{
+	font-family: "NeoSansProRegular";
+	font-size: 14px;
+	color:#60666a;
+	cursor: pointer;
+	margin-left: 17px;
+}
+.footer .prev a{
+	font-family: "NeoSansProRegular";
+	font-size: 14px;
+	color:#60666a;
+	margin-left: 5px;
+}
+.footer .prev a:hover{
+	text-decoration: none;
+}
+.footer .next{
+	font-family: "NeoSansProRegular";
+	font-size: 14px;
+	color:#60666a;
+	cursor: pointer;
+	margin-right: 17px;
+}
+.footer .next a{
+	font-family: "NeoSansProRegular";
+	font-size: 14px;
+	color:#60666a;
+	margin-right: 5px;
+}
+.footer .next a:hover{
+	text-decoration: none;
+}
+
+@media(max-width:320px) {
+	.top_logo{
+		text-align: center;
+	}
+	.nav_header{
+		display: flex;
+  		flex-direction: column;
+		height: 180px;
+		text-align: center;
+	}
+	.nav_header .checke{
+		display: inline-block;
+	}
+	.main .block{
+		margin: 0 auto;
+	}
+	.footer{
+		display: flex;
+  		flex-direction: column;
+
+	}
+	.footer ul{
+		padding: 0;
+	}
+	.footer .next{
+		margin: 0 0 10px 0;
+	}
+	.footer .prev{
+		margin: 10px 0 0 0;
+	}
+}
+@media(max-width:375px) {
+	.top_logo{
+		text-align: center;
+	}
+	.nav_header{
+		display: flex;
+  		flex-direction: column;
+		height: 180px;
+		text-align: center;
+	}
+	.nav_header .checke{
+		display: inline-block;
+	}
+	.main .block{
+		margin: 0 auto;
+	}
+	.footer{
+		display: flex;
+  		flex-direction: column;
+
+	}
+	.footer ul{
+		padding: 0;
+	}
+	.footer .next{
+		margin: 0 0 10px 0;
+	}
+	.footer .prev{
+		margin: 10px 0 0 0;
+	}
+}
+@media(max-width:414px) {
+	.top_logo{
+		text-align: center;
+	}
+	.nav_header{
+		display: flex;
+  		flex-direction: column;
+		height: 180px;
+		text-align: center;
+	}
+	.nav_header .checke{
+		display: inline-block;
+	}
+	.main .block{
+		margin: 0 auto;
+	}
+	.footer{
+		display: flex;
+  		flex-direction: column;
+
+	}
+	.footer ul{
+		padding: 0;
+	}
+	.footer .next{
+		margin: 0 0 10px 0;
+	}
+	.footer .prev{
+		margin: 10px 0 0 0;
+	}
+}
+
+@media(max-width:568px) {
+	.top_logo{
+		text-align: center;
+	}
+	.nav_header{
+		display: flex;
+  		flex-direction: column;
+		height: 180px;
+		text-align: center;
+	}
+	.nav_header .checke{
+		display: inline-block;
+	}
+	.main .block{
+		margin: 0 auto;
+	}
+}
