@@ -1,0 +1,16 @@
+@font-face {
+font-family: "Montserrat-Regular"; 
+src: url("../fonts/Montserrat-Regular/Montserrat-Regular.otf"); 
+src: url("../fonts/Montserrat-Regular/Montserrat-Regular.otf?#iefix") format("embedded-opentype"),
+url("../fonts/Montserrat-Regular/Montserrat-Regular.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+@font-face {
+font-family: "Montserrat-ExtraBold"; 
+src: url("../fonts/Montserrat-ExtraBold/Montserrat-ExtraBold.otf"); 
+src: url("../fonts/Montserrat-ExtraBold/Montserrat-ExtraBold.otf?#iefix") format("embedded-opentype"),
+url("../fonts/Montserrat-ExtraBold/MMontserrat-ExtraBold.otf") format("truetype"); 
+font-style: bold; 
+font-weight: bold; 
+}
