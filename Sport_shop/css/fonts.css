@@ -1,0 +1,24 @@
+@font-face {
+font-family: "HarmoniaSansProCyr-Regular"; 
+src: url("../fonts/HarmoniaSansProCyr-Regular/HarmoniaSansProCyr-Regular.ttf"); 
+src: url("../fonts/HarmoniaSansProCyr-Regular/HarmoniaSansProCyr-Regular.ttf?#iefix") format("embedded-opentype"),
+url("../fonts/HarmoniaSansProCyr-Regular/HarmoniaSansProCyr-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+@font-face {
+font-family: "HarmoniaSansProCyr-Black"; 
+src: url("../fonts/HarmoniaSansProCyr-Black/HarmoniaSansProCyr-Black.ttf"); 
+src: url("../fonts/HarmoniaSansProCyr-Black/HarmoniaSansProCyr-Black.ttf?#iefix") format("embedded-opentype"),
+url("../fonts/HarmoniaSansProCyr-Black/HarmoniaSansProCyr-Black.ttf") format("truetype"); 
+font-style: bold; 
+font-weight: bold; 
+}
+@font-face {
+font-family: "HarmoniaSansProCyr-SemiBold"; 
+src: url("../fonts/HarmoniaSansProCyr-SemiBold/HarmoniaSansProCyr-SemiBd.ttf"); 
+src: url("../fonts/HarmoniaSansProCyr-SemiBold/HarmoniaSansProCyr-SemiBd.ttf?#iefix") format("embedded-opentype"),
+url("../fonts/HarmoniaSansProCyr-SemiBold/HarmoniaSansProCyr-SemiBd.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
