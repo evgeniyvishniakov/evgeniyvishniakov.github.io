@@ -1,0 +1,174 @@
+/*Blu*/
+#formOrderOneClick>.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+    z-index: 9999989;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+#formOrderOneClick>.popup {
+    background-color: #fff;
+    border: 3px solid #fff;
+    display: block;
+    left: 50%;
+    opacity: 0;
+    padding: 1em;
+    width: 27%;
+    min-width: 290px;
+    height: auto;
+    position: fixed;
+    text-align: justify;
+    top: 53%;
+    visibility: hidden;
+    z-index: 999999997;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+    border-radius: 4px;
+}
+#formOrderOneClick .popup .close_order {
+    font-size: 15px;
+    display: block;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    padding:2px;
+    top: -6px;
+    right: -6px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'tahoma', sans-serif;
+    background-color: rgba(9, 173, 232, 1);
+    border: 1px solid rgba(9, 173, 232, 1);
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -o-border-radius: 20%;
+    -ms-border-radius: 20%;
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+#formOrderOneClick .popup .close_order:hover {
+   background-color: rgba(9, 173, 232, .8);;
+    border: 1px solid rgba(9, 173, 232, .8);
+}
+#formOrderOneClick .popup .close_order:active {
+    background: #8f9be0;
+}
+#formOrderOneClick input[type="email"], #contactform input[type="tel"], #contactform input[type="text"] {
+    font-size: 16px;
+    border: 1px solid rgba(9, 173, 232, 1);
+    padding: 0px 7px;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+     height: 2.3em;
+    text-align: left;
+    margin: 5px;
+    width: 100%;
+    color: #000;
+}
+#formOrderOneClick input[type="email"]:focus, #contactform input[type="tel"]:focus, #contactform input[type="text"]:focus,#formOrderOneClick textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    -webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    -moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+#formOrderOneClick textarea{
+    resize: none;
+    font-family: 'arial', sans-serif;
+    padding: 6px;
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fff;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+        text-align: left;
+    margin: 5px;
+}
+#formOrderOneClick input[type="checkbox"] {
+    float: left;
+}
+
+#formOrderOneClick .popup #contactform {
+    position: relative;
+    border-radius: 12px;
+    background: none;
+}
+#formOrderOneClick h6 {
+    display: block;
+    font-size: 16px;
+    margin: 5px;
+}
+#formOrderOneClick .button{
+    background-color: rgba(81, 203, 238, 1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+      border: 1px solid rgba(81, 203, 238, 1);
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    width:25%;
+     min-width: 105px;
+    outline: medium none;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+#formOrderOneClick .button:hover {
+    
+    text-decoration: none;
+}
+#formOrderOneClick .button:active, #contactform input[type="submit"].button:disabled {
+    opacity: 0.7;
+    cursor: default;
+}
+#formOrderOneClick .phoneFormat {
+    line-height: 12px;
+    font-size: 12px;
+    color: #cacaca;
+    position: relative;
+    z-index: 20;
+    padding: 0;
+    margin: 2px;
+}
+#formOrderOneClick label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#formOrderOneClick th,td {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+}

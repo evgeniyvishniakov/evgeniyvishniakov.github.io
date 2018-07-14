@@ -1,0 +1,68 @@
+
+.widget_yith_wc_category_accordion ul li{
+    padding: 10px 0;
+    list-style-type: none;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+}
+
+.widget_yith_wc_category_accordion ul li.closed {
+
+}
+.widget_yith_wc_category_accordion ul li.cat-parent.opened{
+    padding-bottom: 0;
+}
+
+.widget_yith_wc_category_accordion ul{
+    padding-left: 20px;
+}
+
+.widget_yith_wc_category_accordion ul li.cat-parent{
+    padding-top: 10px;
+}
+.widget_yith_wc_category_accordion ul li:not(.cat-parent),
+.widget_yith_wc_category_accordion ul li:not(.opened){
+    padding: 10px 0;
+    border: none;
+}
+.widget_yith_wc_category_accordion ul.children li:before{
+    content: '>';
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: -20px;
+}
+.widget_yith_wc_category_accordion ul.children li.cat-parent{
+    padding-bottom: 0;
+}
+.widget_yith_wc_category_accordion ul.children li.cat-parent ul{
+    padding-left: 20px;
+}
+
+.widget_yith_wc_category_accordion ul.ywcca_category_accordion_widget > li {
+    border-bottom: 1px solid;
+}
+
+.widget_yith_wc_category_accordion ul.ywcca_category_accordion_widget li i.icon-minus {
+    background: url('../images/plus-minus.png') bottom center no-repeat;
+}
+
+.widget_yith_wc_category_accordion ul.ywcca_category_accordion_widget li i.icon-plus {
+    background: url('../images/plus-minus.png') top center no-repeat;
+    text-indent: 999px;
+}
+.widget_yith_wc_category_accordion ul.ywcca_category_accordion_widget li i {
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+}
+.widget_yith_wc_category_accordion ul li span.count {
+    margin-left: 4px;
+}
+
+
+.widget_yith_wc_category_accordion .highlight_cat{
+    font-weight: bold;
+}
