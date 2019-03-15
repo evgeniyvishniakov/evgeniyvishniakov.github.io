@@ -1,0 +1,18 @@
+@font-face {
+font-family: "TruenoLt"; 
+src: url("../fonts/TruenoLt/TruenoLt.otf"); 
+src: url("../fonts/TruenoLt/TruenoLt.otf?#iefix") format("embedded-opentype"),
+url("../fonts/TruenoLt/TruenoLt.otf") format("truetype");  
+}
+@font-face {
+font-family: "TruenoBd"; 
+src: url("../fonts/TruenoBd/TruenoBd.otf"); 
+src: url("../fonts/TruenoBd/TruenoBd.otf?#iefix") format("embedded-opentype"),
+url("../fonts/TruenoBd/TruenoBd.otf") format("truetype");  
+}
+@font-face {
+font-family: "TruenoUltBlk"; 
+src: url("../fonts/TruenoUltBlk/TruenoUltBlk.otf"); 
+src: url("../fonts/TruenoUltBlk/TruenoUltBlk.otf?#iefix") format("embedded-opentype"),
+url("../fonts/TruenoUltBlk/TruenoUltBlk.otf") format("truetype");  
+}

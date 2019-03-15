@@ -1,0 +1,212 @@
+.home_top{
+	background-color: #f0efee;
+	.info{
+		.price{
+			font-family: "TruenoLt";
+			font-size: 30px;
+			color: #623232;
+			margin-top: 128px;
+		}
+		h1{
+			font-family: "TruenoUltBlk";
+			font-size: 70px;
+			color: #623232;
+		}
+		h3{
+			font-family: "TruenoUltBlk";
+			font-size: 50px;
+			color: #ff7373;
+			margin: 15px 0 25px 0; 
+		}
+		p{
+			font-family: "TruenoLt";
+			font-size: 16px;
+			color: #8a8784;
+			width: 410px;
+			line-height: 1.8;
+		}
+		button{
+			border: 1px solid #ff7373;
+			background-color: #ff7373;
+			padding: 18px 47px; 
+			outline: none;
+			cursor: pointer;
+			margin-top: 30px;
+			&:hover {
+					box-shadow: 0 0 10px rgba(0,0,0,0.5);
+				}
+			&:active {
+					box-shadow: 0 0 10px rgba(0,0,0,0.10);
+				}
+			a{
+				font-family: "TruenoBd";
+				font-size: 16px; 
+				color: #fff;
+				text-transform: uppercase;
+			}
+		}	
+	}
+}
+.home_discover{
+	margin-top: 50px;
+	.left_content{
+		.kyrie{
+			position: relative;
+			img{
+				width: 100%;
+			}
+			button{
+				position: absolute;
+				bottom: 43px;
+				left: 150px;
+				border: 1px solid #4bd8cd;
+				background-color: #4bd8cd;
+				padding: 16px 29px; 
+				outline: none;
+				cursor: pointer;
+				font-family: "TruenoBd";
+				font-size: 16px; 
+				color: #000;
+				text-transform: uppercase;
+				&:hover {
+						box-shadow: 0 0 15px #4bd8cd;
+				}
+				&:active {
+						box-shadow: 0 0 10px rgba(0,0,0,0.10);
+				}
+			}
+		}	
+	}
+	.right_content{
+		.right_content_new{
+			display: flex;
+			flex-wrap: wrap;
+			.arrivals{
+				position: relative; 
+				img{
+					width: 100%;
+				}
+				button{
+					position: absolute;
+					bottom: 59px;
+					left: 277px;
+					border: 1px solid #623232;
+					background-color: #623232;
+					padding: 16px 29px; 
+					outline: none;
+					cursor: pointer;
+					font-family: "TruenoBd";
+					font-size: 16px; 
+					color: #fff;
+					text-transform: uppercase;
+					&:hover {
+							box-shadow: 0 0 15px #623232;
+					}
+					&:active {
+							box-shadow: 0 0 10px rgba(0,0,0,0.10);
+					}
+				}
+			}
+			.best{
+				height: 239px;
+				margin-right: 15px;
+				margin-top: 27px;
+			}
+			.premium{
+				height: 239px;
+				margin-left: 15px;
+				margin-top: 27px;
+			}
+		}
+	}	
+}
+.filter{
+	.components{
+		margin: 100px 0 50px 0;
+		ul{
+			display: flex;
+			justify-content: center;
+			.components_active{
+				font-family: "TruenoBd";
+				color: #623232;
+			}
+			li{
+				margin: 0 20px;
+				text-transform: uppercase;
+				font-family: "TruenoLt";
+				font-size: 30px;
+				color: #bdb9b5;
+				cursor: pointer;
+			}
+		}
+	}
+	.filter_content{
+		.rows{
+			display: flex;
+			margin: -15px;
+			flex-wrap: wrap;
+			.item{
+				border: 1px solid #e0dfde;
+				height: 350px;
+				width: calc(100% / 12 * 3 - 30px);
+				margin: 15px;
+				.prices{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-top: 26px;
+					.price{
+						font-family: "TruenoLt";
+						font-size: 24px;
+						color: #ff7373;
+						margin-left: 28px;
+					}
+					.sale{
+						font-family: "TruenoBd";
+						font-size: 16px;
+						color: #fff;
+						border: 1px solid #ff7373;
+						background-color: #ff7373;
+						padding: 8px 10px;
+					}
+				}
+				.old_price{
+					font-family: "TruenoLt";
+					font-size: 16px;
+					color: #8a8784;
+					text-decoration: line-through;
+					margin:0 0 9px 28px;
+				}
+				img{
+					display: block;
+					margin: 8px auto 0px auto;
+				}
+				.info{
+					margin: 90px 0 0 28px;
+					h3{
+						font-family: "TruenoBd";
+						font-size: 16px;
+						color: #8a8784;
+					}
+					.name{
+						font-family: "TruenoLt";
+						font-size: 16px;
+						color: #8a8784;
+						margin: 14px 0 16px 0;
+					}
+					.article{
+						font-family: "TruenoLt";
+						font-size: 13px;
+						color: #8a8784;
+					}
+				}
+			}
+		}
+	}		
+}
+.brand{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
